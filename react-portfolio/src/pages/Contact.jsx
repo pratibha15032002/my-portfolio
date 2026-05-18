@@ -8,7 +8,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsSubmitting(true); // Button ko disable karne ke liye
+    setIsSubmitting(true); 
 
     try {
       const response = await fetch("http://localhost:5000/api/contact", {
@@ -30,7 +30,7 @@ const Contact = () => {
     } finally {
       setIsSubmitting(false); 
     }
-  };
+  }; 
 
   const handleInputChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -159,3 +159,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
+   

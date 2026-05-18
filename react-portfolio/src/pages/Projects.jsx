@@ -24,7 +24,7 @@ const Projects = () => {
             rel="noreferrer"
             className="btn-demo"
           >
-            Launch App
+            View Demo
           </a>
         </div>
 
@@ -41,7 +41,7 @@ const Projects = () => {
             rel="noreferrer"
             className="btn-demo"
           >
-            Check Weather
+            View Demo
           </a>
         </div>
 
@@ -57,24 +57,23 @@ const Projects = () => {
             rel="noreferrer"
             className="btn-demo"
           >
-            View Menu
+            View Demo
           </a>
         </div>
 
         <div className="project-card">
           <span className="project-number">04</span>
-          <h3>Task Manager</h3>
+          <h3>pokedex</h3>
           <p>
-            Boost productivity with task prioritization, state management,
-            and an organized life-work workflow.
+            A Pokédex is a fictional, handheld electronic encyclopedia in the Pokémon universe used by Trainers to record, store, and display data on various Pokémon species encountered or captured during their journey.
           </p>
           <a
-            href="https://pratibha15032002.github.io/to-do-App/"
+            href="https://pokedex-sepia-ten-66.vercel.app/"
             target="_blank"
             rel="noreferrer"
             className="btn-demo"
           >
-            Manage Tasks
+            View Demo
           </a>
         </div>
 
@@ -91,7 +90,7 @@ const Projects = () => {
             rel="noreferrer"
             className="btn-demo"
           >
-            View Dashboard
+          View Demo
           </a>
         </div>
 
@@ -108,7 +107,7 @@ const Projects = () => {
             rel="noreferrer"
             className="btn-demo"
           >
-            Explore Store
+            View Demo
           </a>
         </div>
 

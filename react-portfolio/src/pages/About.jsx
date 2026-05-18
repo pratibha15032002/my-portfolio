@@ -19,13 +19,15 @@ const About = () => {
     { name: "GitHub", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
   ];
 
-  // ✅ Projects with links
+  // Projects with links
   const projects = [
     { name: "Weather App", link: "https://weather-1-0a6d.onrender.com/" },
     { name: "Doctor Appointment", link: "https://prescripto.vercel.app/" },
+    { name: "Pokedex", link: "https://pokedex-sepia-ten-66.vercel.app/" },
     { name: "Re-Direct Link", link: "https://redirect-link-six.vercel.app/" },
     { name: "E-commerce", link: "https://pratibha15032002.github.io/Flipkart-Clone/" },
     { name: "To-Do App", link: "https://pratibha15032002.github.io/to-do-App/" },
+
   ];
 
   return (
@@ -41,7 +43,7 @@ const About = () => {
           <p>
             Hi! I am a <strong>Python Full Stack Developer</strong> based in
             Singrauli (M.P.). Specialized in building scalable web applications
-            with a focus on clean code and interactive UI/UX.
+            with a focus on clean code and interactive UI/UX,  with hands-on experience in designing, developing, and deploying web applications using Python, Django, React, and REST APIs.
           </p>
 
           <div className="projects-preview">
@@ -50,9 +52,9 @@ const About = () => {
             <ul className="project-pills">
               {projects.map((project, index) => (
                 <li key={index}>
-                  <a 
-                    href={project.link} 
-                    target="_blank" 
+                  <a
+                    href={project.link}
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="project-link"
                   >
